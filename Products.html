@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+    type="image/vnd.microsoft.icon"
+    href="Logo.png">
+    <title>HRAST</title>
+    
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg  bg-light navbar-light border-bottom border-success border-2">
+        <img src="Logo.png" class="logo sticky-top">
+        <img src="Design.png" class="design">
+
+        <button class="navbar-toggler"
+         type="button"
+         data-bs-toggle="collapse"
+         data-bs-target="#navbutton">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbutton">
+
+            <ul class="navbar-nav ms-auto ">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link  text-success">HOME</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="Products.html" class="nav-link text-success current">PRODUCTS</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="Services.html" class="nav-link text-success">SERVICES</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="Contact.html" class="nav-link  text-success">CONTACT</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="About_us.html" class="nav-link text-success">ABOUT US</a>
+                </li>
+
+            </ul>
+
+        </div>
+        <nav>
+            <div class="lang-menu">
+                <div class="selected-lang">
+                   <a href="Products.html" id="links">English</a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="ProductsS.html" id="links">Serbian</a>
+                    </li>
+                </ul>
+            </div>
+            </nav>
+
+    </nav>
+
+    <!--Products(CHOOSE PRODUCT,CARDS)-->
+    <section class="p-5" style="background-image: url(fireplaceq.jpg); background-size:100% 100%;">
+        <div class="container">
+            <h1 class="text-center p-5 text-light" >SELECT THE TYPE OF PRODUCT</h1>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="card text-warning border-success border-4" style="border-radius: 30px; background-color: transparent;">
+                        <div class="image_hover">
+                        <img src="firewood.png" alt="Error" class="card-img-top p-4 border-success firewood">
+                        <div class="middle">
+                            <a href="#firewood">
+                            <button type="button" class="order text-dark">GO TO</button>
+                            </a>
+                        </div>
+                        </div>
+                        <div class="card-header bg-dark text-center py-2" style="border-radius: 25px;">
+                            <h3>FIREWOOD</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-warning border-success border-4" style="border-radius: 30px; background-color: transparent;">
+                        <div class="image_hover">
+                        <img src="Logs.png" alt="Error" class="card-img-top p-4 border-success firewood" style="height: 170px;">
+                        <div class="middle">
+                            <a href="#log">
+                            <button type="button" class="order text-dark">GO TO</button>
+                            </a>
+                        </div>
+                        </div>
+                        <div class="card-header bg-dark text-center" style="border-radius: 25px;">
+                            <h3>LOGS</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-light text-warning border-success border-4" style="border-radius: 30px;">
+                        <div class="image_hover">
+                        <img src="other2.jpg" alt="Error" class="card-img-top p-4 border-success firewood" style="height: 170px;">
+                        <div class="middle">
+                            <a href="Services.html">
+                            <button type="button" class="order text-dark">SEE MORE</button>
+                            </a>
+                        </div>
+                        </div>
+                        <div class="card-header bg-dark text-center" style="border-radius: 25px;">
+                            <h3>OTHER</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background-image: linear-gradient(to bottom right,black,greenyellow);">
+
+    <!--FIREWOOD SECTION-->
+    <section id="firewood">
+        <div class="container">
+            <h1 class="text-center p-5 text-warning" style="text-decoration: underline;">FIREWOOD -50€ PER CUBIC METER-</h1>
+        <div class="row text-center">
+            <div class="col-md">
+                <div class="card p-5 border-3" style="border-radius: 300px;  border-color: green;">
+                    <img src="firewood.png" alt="Error" class="card-img-top">
+                </div>
+                <div class="text-white">
+                <h3>OAK FIREWOOD</h3>
+                <button type="button" class="btn btn-success btn-lg">ORDER</button>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card p-5 border-3" style="border-radius: 500px;  border-color: green;">
+                    <img src="letter_firewood.jpg" alt="Error" class="card-img-top">
+                </div>
+                <div class="text-white">
+                <h3>LETTER FIREWOOD</h3>
+                <button type="button" class="btn btn-success btn-lg">ORDER</button>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card p-5 border-3" style="border-radius: 500px;  border-color: green;">
+                    <img src="pine_firewood.jpg" alt="Error" class="card-img-top">
+                    <h4 class="text-dark"></h4>
+                </div>
+                <div class="text-white">
+                <h3>PINE FIREWOOD</h3>
+                <button type="button" class="btn btn-success btn-lg">ORDER</button>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card p-5 border-3" style="border-radius: 500px;  border-color: green;">
+                    <img src="Maple-Firewood7.jpg" alt="Error" class="card-img-top">
+                </div>
+                <div class="text-white">
+                    <h3>MAPLE FIREWOOD</h3>
+                    <button type="button" class="btn btn-success btn-lg">ORDER</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!--LOG SECTION-->
+    <section style="margin-top: 200px;" id="log">
+        <div class="container">
+            <h1 class="text-center p-5 text-warning" style="text-decoration: underline;">LOGS -45€ PER CUBIC METER-</h1>
+        <div class="row text-center">
+            <div class="col-md">
+                <div class="card p-5 border-3" style="border-radius: 300px;  border-color: green;">
+                    <img src="oak_log.jpg" alt="Error" class="card-img-top">
+                </div>
+                <div class="text-white">
+                <h3>OAK LOG</h3>
+                <button type="button" class="btn btn-success btn-lg">ORDER</button>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card p-5 border-3" style="border-radius: 500px;  border-color: green;">
+                    <img src="Beech_log.jpg" alt="Error" class="card-img-top p-3">
+                </div>
+                <div  class="text-white">
+                <h3>BEECH LOG</h3>
+                <button type="button" class="btn btn-success btn-lg">ORDER</button>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card p-5 border-3" style="border-radius: 500px;  border-color: green;">
+                    <img src="pine_log.jpg" alt="Error" class="card-img-top">
+                    <h4 class="text-dark"></h4>
+                </div>
+                <div class="text-white">
+                <h3>PINE LOG</h3>
+                <button type="button" class="btn btn-success btn-lg">ORDER</button>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card p-5 border-3" style="border-radius: 500px;  border-color: green;">
+                    <img src="Maple_log3.jpg" alt="Error" class="card-img-top">
+                </div>
+                <div class="text-white">
+                    <h3>MAPLE LOG</h3>
+                    <button type="button" class="btn btn-success btn-lg">ORDER</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="bg-light p-3 position-relative border-top  border-success border-2">
+        <div class="d-sm-flex">
+            <img src="Logo.png" class="logo2">
+            <p class="lead" >
+                <span class="text-primary">
+                <i class="bi bi-instagram h3" id="social_media"></i>
+                <i class="bi bi-youtube h3" id="social_media"></i>
+                <i class="bi bi-facebook h3" id="social_media"></i>
+                <i class="bi bi-twitter h3 "id="social_media"></i>
+                </span>
+
+                <span class="text-secondary">
+                <img src="Design.png" id="design2"> &copy; 2022.All Rights Reserved
+                </span>
+            </p>
+                <a href="" class="position-absolute bottom-0 end-0 p-4 link-dark">
+                <i class="bi bi-arrow-up-circle h1"></i>
+                </a>
+        </div>
+    </footer>
+
+    <script src="Website.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

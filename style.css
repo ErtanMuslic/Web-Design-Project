@@ -1,0 +1,233 @@
+html,body {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  /* HOME page*/
+
+  .current{
+      text-decoration: underline;
+      text-decoration-color: green;
+      text-decoration-thickness: 2px;
+  }
+
+  #links{
+      color: black;
+      text-decoration: none;
+  }
+
+  .selected-lang{
+      cursor: pointer;
+  }
+
+  .selected-lang::before{
+      content: '';
+      display: block;
+      width: 32px;
+  }
+
+  .lang-menu ul {
+      margin: 0;
+      padding: 0;
+      display: none;
+  }
+
+  .lang-menu:hover ul{
+      display: block;
+  }
+
+  .lang-menu li {
+      list-style: none;
+  }
+
+  .lang-menu ul li a{
+      cursor: pointer;
+  }
+
+.logo{
+    width: 90px;
+    height: 60px;
+}
+
+.design{
+    width: 110px;
+}
+
+#slika{
+
+    width: 300px;
+    height: 200px;
+    
+}
+.text{
+    padding-top: 30px;
+}
+p{
+    color: white;
+}
+#gif{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    height: 35%;
+    width: 55%;
+    border-style: solid;
+    border-color: orange;
+}
+
+.cover{
+    background-image: url("Dvmq5u.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    height: 60vh;
+}
+.lead{
+    margin-left: 24%;
+}
+.logo2{
+    width: 90px;
+    height: 60px;
+    text-align: left;
+}
+#design2{
+    width: 20%;
+}
+
+.header{
+    margin-top: 30px;
+}
+
+#social_media{
+    padding:4px;
+}
+
+
+/*About us page*/
+
+.backgroundimg{
+    background-image:url("3780_1.jpg");
+    background-size: cover;
+}
+
+.background {
+    background-image: url("fireplace.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+
+.blur{
+    backdrop-filter: blur(4px);
+}
+
+.fireplace2{
+    margin: 50px;
+    width: 250px;
+    height: 150px;
+}
+
+.line {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid rgb(245, 245, 245); 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ .line_span { 
+     background:rgb(0, 0, 0); 
+     padding:0 10px; 
+ }
+
+
+ /*Products page*/
+.image_hover{
+    position: relative;
+}
+.image_hover:hover .firewood{
+    opacity: 0.3;
+}
+.image_hover:hover .middle{
+    opacity: 1;
+}
+
+ .firewood{
+    opacity: 1;
+    display: block;
+    transition: .5,ease;
+    backface-visibility: hidden;
+    height: 170px;
+ }
+ .order{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+
+ }
+ .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+/*CONTACT FORM*/
+
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.form-group{
+    padding-bottom:20px;
+    width: 300px;
+    position: relative;
+}
+
+.form-group.fail small{
+    visibility: visible;
+    color: red;
+}
+
+.form-group.succ small{
+    visibility: hidden;
+}
+
+.form-group small{
+    visibility: hidden;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.formbutton{
+    background-color: yellowgreen;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+
+
+
